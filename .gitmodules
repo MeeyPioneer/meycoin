@@ -1,0 +1,8 @@
+[submodule "libtool/src/luajit"]
+	path = libtool/src/luajit
+	url = https://github.com/meeypioneer/luajit
+	branch = master
+[submodule "mey-protobuf"]
+	path = mey-protobuf
+	url = https://github.com/meeypioneer/mey-protobuf
+	branch = master

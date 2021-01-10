@@ -1,0 +1,9 @@
+FROM alpine:3.9
+RUN apk add libgcc
+COPY bin/meycoinsvr /usr/local/bin/
+COPY lib/* /usr/local/lib/
+COPY conf/* /meycoin/
+ENV LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
+WORKDIR /meycoin/
+CMD ["meycoinsvr", "--home", "/meycoin"]
+EXPOSE 7845 7846 6060
