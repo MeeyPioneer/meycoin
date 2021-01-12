@@ -32,5 +32,5 @@ dumpfilepath = "/meycoin/mempool.dump"
 [consensus]
 enablebp = true
 enabledpos = false
-blockinterval = 1
+blockinterval = 10
 

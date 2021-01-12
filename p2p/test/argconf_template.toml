@@ -57,7 +57,7 @@ dumpfilepath = "${home}/data/X${rpc}/mempool.dump"
 
 [consensus]
 enablebp = ${enablebp}
-blockinterval = 1
+blockinterval = 10
 
 [monitor]
 protocol = ""

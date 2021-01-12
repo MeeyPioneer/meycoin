@@ -153,7 +153,7 @@ func (ctx *ServerContext) GetDefaultMempoolConfig() *MempoolConfig {
 
 func (ctx *ServerContext) GetDefaultConsensusConfig() *ConsensusConfig {
 	return &ConsensusConfig{
-		BlockInterval: 1,
+		BlockInterval: 10,
 	}
 }
 

@@ -37,11 +37,11 @@ usefastsyncer= true
 showmetrics = true
 [consensus]
 enablebp = true
-blockinterval = 1
+blockinterval = 10
 
 [consensus.raft]
 newcluster=false
-blockintervalms = 1000
+blockintervalms = 10000
 blockfactorytickms=30
 name="meycoin4"
 snapfrequency=10

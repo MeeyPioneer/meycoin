@@ -23,7 +23,7 @@ import (
 )
 
 // DefaultBlockIntervalSec  is the default block generation interval in seconds.
-const DefaultBlockIntervalSec = int64(1)
+const DefaultBlockIntervalSec = int64(10)
 
 var (
 	// BlockIntervalSec is the block genration interval in seconds.

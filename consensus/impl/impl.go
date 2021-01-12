@@ -31,7 +31,7 @@ func New(cfg *config.Config, hub *component.ComponentHub, cs *chain.ChainService
 	)
 
 	if chain.IsPublic() {
-		blockInterval = 1
+		blockInterval = 10
 	} else {
 		blockInterval = cfg.Consensus.BlockInterval
 	}
